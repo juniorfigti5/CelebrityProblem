@@ -28,7 +28,6 @@ public class LoaderTest {
 	@Test
 	public void testLoadCsv() {
 		ArrayList<List<Integer>> csv = loader.loadCsv();
-		assertNotNull(csv);
 		assertTrue(csv.size()>0);
 	}
 }

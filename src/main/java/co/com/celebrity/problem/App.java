@@ -1,14 +1,14 @@
 package co.com.celebrity.problem;
 
-import co.com.celebrity.problem.finder.Finder;
+import java.util.logging.Logger;
 
-public class App 
-{	
+public class App {	
+	private static final Logger logger = Logger.getLogger( App.class.getName() );
+	
     public static void main( String[] args )
     {
-        System.out.println( "CELEBRITY PROBLEM!!" );
-    	new Finder();
-        System.out.println( "THANK YOU!" );
+    	logger.info( "CELEBRITY PROBLEM!!" );
+    	new Problem();
+    	logger.info( "THANK YOU!" );
     }
-    
 }
