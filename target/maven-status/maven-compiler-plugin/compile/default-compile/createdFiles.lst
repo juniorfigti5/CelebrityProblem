@@ -1,0 +1,4 @@
+co\com\celebrity\problem\App.class
+co\com\celebrity\problem\validator\Validator.class
+co\com\celebrity\problem\finder\Finder.class
+co\com\celebrity\problem\loader\Loader.class
